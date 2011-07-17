@@ -1,0 +1,11 @@
+The program is run from the command line with the parameters "number of neurons", "neighbourhood size", "number of iterations", "steps before outputting", "learning rate" and "path name"
+
+The parameters are int, int, int, int, double, String
+
+Example parameters would be:
+
+50 30 500 50 0.3 ws.tsp
+
+It works best with around 2:1 neuron to cities ratio and large (60% of neurons~) neighbourhood size for small problems and smaller (40%~ of neurons) sizes for larger problems.
+
+NOTE: Whether or not Java interprets . or , as the proper way to separate decimals seem to be dependant of your regional settings. You might have to convert , to . to get it to run.
